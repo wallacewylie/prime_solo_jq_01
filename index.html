@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prime Solo JQ</title>
+<link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+
+<h1>Employee Information</h1>
+
+<form id="myForm" name="myForm">
+  <input type="firstname" placeholder="First Name" id="firstname" name="firstname" required/>
+  <br>
+  <input type="text" placeholder="Last Name" id="lastname" name="lastname" required/>
+  <br>
+  <input type="text" placeholder="Employee Number" name="empnumber" required/>
+  <br>
+  <input type="text" placeholder="Employee Title" name="emptitle" required/>
+  <br>
+  <input type="number" max="5" placeholder="Last Review Score" name="review" required/>
+  <br>
+  <input type="text" placeholder="Employee Salary" name="salary" required/>
+  <br>
+  <input type="Submit" onSubmit="submit()" onclick="createEmployee()"/>
+  </form>
+
+<div>
+
+<ul id="output"></ul>
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="script.js">	
+</script>
+</body>
+</html>
